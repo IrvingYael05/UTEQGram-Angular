@@ -49,7 +49,6 @@ import { CreatePostComponent } from '../../components/create-post/create-post.co
                 <img
                   [src]="post.image"
                   [alt]="post.title"
-                  loading="lazy"
                   (error)="onImageError($event)"
                 />
                 <h2 class="card-title">{{ post.title }}</h2>
